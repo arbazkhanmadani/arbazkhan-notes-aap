@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Notes - Arbaz Khan notesapp</title>
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/home (1).png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Libraries Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/notes.css" rel="stylesheet">
+
+
+ 
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+
+  
+
+     <!-- Navbar Start -->
+     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Free</span>Notes</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a  href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="#" id="notes" class="nav-item nav-link">Notes</a>
+            </div>
+          
+                <div class="search">
+                   <input type="search" id="search-item" placeholder="Search here" onkeyup="search()">
+                   <!-- <button  class="btn" onclick="search()">Search</button> -->
+               </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    
+    <div class="container-fluid" id="container">
+            <div class="slider">
+                <marquee behavior="" direction="">All the hand written notes, PDF and links belongs to <a href="">Arbaz Khan Madani</a>.OTHER NOTES WILL BE UPLOADED SOON
+                </marquee>
+            </div>
+     </div>  
+
+
+
+
+
+<div class="container-fluid">
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="carousel-item active" style="background: #25c;">
+              <div class="caption">
+                <h1>Create and share your whatever</h1>
+                <h2>Make it easy for you to do whatever this thing does.</h2>
+              </div>
+            </div>
+  
+            <div class="carousel-item" style="background: #52c;">
+              <div class="caption">
+                <h1>Something and share your whatever</h1>
+                <h2>Else it easy for you to do whatever this thing does.</h2>
+  
+                <a class="big-button" href="" title="">Create Project</a>
+                <div class="clear"></div>
+                <a class="view-demo" href="" title="">View Demo</a>
+              </div>
+            </div>
+            
+            <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1476553986076-d59060d397e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1989&q=80'); background-size: cover;">
+              <div class="caption">
+                <h1>Create and share your whatever</h1>
+                <h2>Make it easy for you to do whatever this thing does.</h2>
+              </div>
+            </div>
+  
+          </div>
+          
+
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden ">Next</span>
+        </button>
+      </div>
+</div>     
+
+
+
+    
+<div class="position-relative d-flex align-items-center justify-content-center">
+    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Catagories</h1>
+    <h1 class="position-absolute text-uppercase text-primary ">Catagories of notes</h1>
+</div>
+<div class="wrapper">
+<div class="card">
+  <h3 class="card-title">Programing language notes</h3>
+    <p class="card-content">In this section we have computarized and pdf notes of multiple Programing like java, javascript, python and so on.<br/> please click on the button to go over the download section of freeNotes application.</p>
+    <button class="card-btn"><a href="#language" style="color: black; text-decoration: none;">go to notes source</a></button>
+  </div>
+  <div class="card">
+    <h3 class="card-title">Computer science subjects</h3>
+    <p class="card-content">In this section we have computarized and pdf notes of multiple CSE subjects like DBMS,CN,OS and so on.<br/> please click on the button to go over the download section of freeNotes application.</p>
+    <button class="card-btn"><a href="#cse" style="color: black; text-decoration: none;">go to notes source</a></button>
+  </div>
+  <div class="card">
+    <h3 class="card-title">usefull stuff links</h3>
+    <p class="card-content">In this section we have links like Strivers DSA sheet,Free video lecture links, and lots of cracked courses and so on.<br/> please click on the button to go over the download section of freeNotes application.</p>
+    <button class="card-btn"><a href="#links" style="color: black; text-decoration: none;">go to notes source</a></button>
+  </div>
+</div>
+
+
+
+
+<!--Cards====================================================-->
+<div  class="card-list">
+    
+</div>
+
+
+
+
+
+
+
+
+         </div>
+
+
+         <div class="container-fluid py-5" id="contact">
+            <div class="container">
+                <div class="position-relative d-flex align-items-center justify-content-center">
+                    <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Upload</h1>
+                    <h1 class="position-absolute text-uppercase text-primary">upload your notes</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-form text-center">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate" onsubmit="upload()">
+                               
+                                <div class="control-group">
+                                    <input type="file" class="form-control p-4" id="subject" placeholder="Subject"
+                                        required="required" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block text-danger"></p>
+                                    <img src="" id="imgs"></img>
+                                </div>
+                              
+                               
+                                <div>
+                                    <input type="submit" class="btn btn-outline-primary" type="submit" id="sendMessageButton" value="upload">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+    
+
+
+
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://github.com/ArbazKhanMadani"><i class="fa-brands fa-github"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/arbaz-khan-40b490228/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://www.intagram.com/barbad_engineer2001"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="https://twitter.com/ArbazKhanmadani"><i class="fab fa-twitter"></i></a>
+                
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="index.html">Home</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#notes">Notes</a>
+                <span class="px-3">|</span>
+            </div>
+            <p class="m-0">All Rights Reserved. Designed by <span style="color: black;">&copy;ArbazKhanMadani</span></p>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/autotyping@1.2.6/dist/AutoTyping.min.js"></script>
+
+    <!-- Template Javascript -->
+  
+    <script src="js/notes.js"></script>
+    <script src="js/main.js"></script>
+  
+</body>
+
+
+</html>

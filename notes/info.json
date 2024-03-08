@@ -1,0 +1,84 @@
+[
+    {
+        "id":1,
+        "title":"java",
+        "img":"img/designer.jpg",
+        "catagory":"programing language",
+        "detail":"What is Java? Java is a popular programming language, created in 1995. It is owned by Oracle, and more than 3 billion devices run Java.",
+        "link":"notes/java.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"c++",
+        "img":"img/developer.jpg",
+        "catagory":"programing language",
+        "detail":"C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs",
+        "link":"notes/cpp.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"c language",
+        "img":"img/developer.jpg",
+        "catagory":"programing language",
+        "detail":"C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. It is a very popular language, despite being old",
+        "link":"notes/clang.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"sql",
+        "img":"img/developer.jpg",
+        "catagory":"query language",
+        "detail":"Structured query language (SQL) is a programming language for storing and processing information in a relational database. A relational database stores",
+        "link":"notes/sql.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"python",
+        "img":"img/developer.jpg",
+        "catagory":"query language",
+        "detail":"Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. It is used for: web development",
+        "link":"notes/python.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"unix",
+        "img":"img/developer.jpg",
+        "catagory":"query language",
+        "detail":"UNIX is an operating system which was first developed in the 1960s, and has been under constant development ever since. By operating system,",
+        "link":"notes/unix.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"system programming",
+        "img":"img/developer.jpg",
+        "catagory":"operating system",
+        "detail":"System Programming can be defined as the act of building Systems Software using System Programming Languages.",
+        "link":"notes/sp.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"dsa",
+        "img":"img/developer.jpg",
+        "catagory":"cse subject",
+        "detail":"A data structure is a particular way of organising data in a computer so that it can be used effectively. The idea is to reduce the space and time complexity",
+        "link":"notes/dsa.pdf"
+
+    },
+    {
+        "id":2,
+        "title":"dbms",
+        "img":"img/developer.jpg",
+        "catagory":"cse subject",
+        "detail":"It is a collection of programs that enables users to access and manipulate data in a database. A DBMS is used to store, retrieve, and manipulate data.",
+        "link":"notes/dbms.pdf"
+
+    }
+    
+]
